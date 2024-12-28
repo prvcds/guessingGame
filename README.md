@@ -1,3 +1,1 @@
-basic rust game to let person guess the random number.
-uses dependencies rand = "0.8.5"
-My first rust project. :)
+basic rust game using dependency to let person guess the random number.
