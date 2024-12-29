@@ -1,1 +1,1 @@
-basic rust game using dependency to let person guess the random number.
+Basic rust CLI program which uses dependencies and lets person guess the random number between 1 to 100.
