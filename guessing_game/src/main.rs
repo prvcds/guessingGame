@@ -10,14 +10,14 @@ fn main() {
     let mut guess_count = 0;
 
     loop {
-        println!("Please input your guess.");
+        println!("Please input your guess.");    
 
         let mut guess = String::new();
 
         io::stdin()
             .read_line(&mut guess)
             .expect("Failed to read line");
-
+ 
         guess_count += 1;
 
         let guess: u32 = match guess.trim().parse() {
